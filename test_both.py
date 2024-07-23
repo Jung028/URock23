@@ -88,7 +88,7 @@ while True :
     kit.servo[12].angle = 120
 
 
-    time.sleep(0.2)
+    time.sleep(5)
 
     # ----------------------------- 
 
