@@ -16,6 +16,11 @@ while True :
 
     # ----------------------------- POINT 1 (Starting)
     # right back
+    kit.servo[0].angle = 130
+    # inner
+    kit.servo[1].angle = 120
+    # shoulder 
+    kit.servo[2].angle = 160
     # inner
     kit.servo[6].angle = 135
     # elbow
@@ -23,11 +28,10 @@ while True :
     # shoulder
     kit.servo[8].angle = 15
 
-    time.sleep(1)
+    time.sleep(0.2)
 
     # ----------------------------- 
 
-    
 
     # ----------------------------- POINT 2
     # right back
@@ -38,7 +42,13 @@ while True :
     # shoulder
     kit.servo[8].angle = 15
 
-    time.sleep(1)
+    kit.servo[0].angle = 130
+    # inner
+    kit.servo[1].angle = 120
+    # shoulder 
+    kit.servo[2].angle = 160
+
+    time.sleep(0.2)
 
     # ----------------------------- 
 
@@ -52,8 +62,14 @@ while True :
     kit.servo[7].angle = 100
     # shoulder
     kit.servo[8].angle = 50
+    # elbow
+    kit.servo[0].angle = 110
+    # inner
+    kit.servo[1].angle = 120
+    # shoulder 
+    kit.servo[2].angle = 165
 
-    time.sleep(1)
+    time.sleep(0.2)
 
     # ----------------------------- 
 
@@ -69,10 +85,31 @@ while True :
     kit.servo[7].angle = 60
     # shoulder
     kit.servo[8].angle = 0
+    # elbow
+    kit.servo[0].angle = 90
+    # inner
+    kit.servo[1].angle = 120
+    # shoulder 
+    kit.servo[2].angle = 175
 
-    time.sleep(1)
+    time.sleep(0.2)
 
     # ----------------------------- 
 
 
-     
+    kit.servo[0].angle = 150
+    # inner
+    kit.servo[1].angle = 118
+    # shoulder 
+    kit.servo[2].angle = 160
+
+    time.sleep(0.2)
+
+    kit.servo[0].angle = 80
+    # inner
+    kit.servo[1].angle = 120
+    # shoulder 
+    kit.servo[2].angle = 130
+
+    time.sleep(0.1)
+

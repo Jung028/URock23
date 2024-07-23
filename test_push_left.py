@@ -25,46 +25,39 @@ while True :
     time.sleep(1)
     # ----------------------------- 
 
-    # STAND
-
-
-    # LIFT UP ELBOW
-    # left back
-    # ----------------------------- POINT 2 
-    # elbow
-    kit.servo[0].angle = 150
-    # inner
-    kit.servo[1].angle = 118
-    # shoulder 
-    kit.servo[2].angle = 160
-   
-    time.sleep(0.3)
-    # -----------------------------
+     # ----------------------------- POINT 1 (Starting)
  
-    # ----------------------------- POINT 3 
+    # elbow
+    kit.servo[0].angle = 110
+    # inner
+    kit.servo[1].angle = 120
+    # shoulder 
+    kit.servo[2].angle = 165
+    time.sleep(1)
+    # ----------------------------- 
+
+
+     # ----------------------------- POINT 1 (Starting)
+ 
+    # elbow
+    kit.servo[0].angle = 90
+    # inner
+    kit.servo[1].angle = 120
+    # shoulder 
+    kit.servo[2].angle = 175
+    time.sleep(1)
+    # ----------------------------- 
+ 
+    # ----------------------------- POINT 1 (Starting)
+ 
     # elbow
     kit.servo[0].angle = 80
     # inner
     kit.servo[1].angle = 120
     # shoulder 
-    kit.servo[2].angle = 130
-   
-    
-
-
-    time.sleep(1)
-    # -----------------------------
-
-
-    # ----------------------------- POINT 4 (Push Back)
-    # elbow
-    kit.servo[0].angle = 100
-    # inner
-    kit.servo[1].angle = 120
-    # shoulder 
     kit.servo[2].angle = 180
-   
     time.sleep(1)
-    # -----------------------------
+    # ----------------------------- 
+
 
  
