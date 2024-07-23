@@ -26,20 +26,20 @@ while True :
 
     # left front
     # elbow
-    kit.servo[3].angle = 180
+    kit.servo[3].angle = 150
     # shoulder
     kit.servo[4].angle = 180
     # inner 
-    kit.servo[5].angle = 120
+    kit.servo[5].angle = 130
 
 
 
 
     # right back
     # inner
-    kit.servo[6].angle = 120
+    kit.servo[6].angle = 130
     # elbow
-    kit.servo[7].angle = 0
+    kit.servo[7].angle = 20
     # shoulder
     kit.servo[8].angle = 0
 
@@ -51,7 +51,7 @@ while True :
     # inner 
     kit.servo[10].angle = 120
     # elbow
-    kit.servo[12].angle = 0
+    kit.servo[12].angle = 60
 
 
     time.sleep(1)
