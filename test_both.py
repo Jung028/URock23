@@ -21,7 +21,14 @@ while True :
     # inner 
     kit.servo[5].angle = 135
 
-    time.sleep(1)
+        # shoulder
+    kit.servo[9].angle = 30
+    # inner 
+    kit.servo[10].angle = 120
+    # elbow
+    kit.servo[12].angle = 110
+
+    time.sleep(0.2)
 
     # -------------------------- 
 
@@ -33,7 +40,15 @@ while True :
     # inner 
     kit.servo[5].angle = 133
 
-    time.sleep(1)
+        # shoulder
+    kit.servo[9].angle = 20
+    # inner 
+    kit.servo[10].angle = 120
+    # elbow
+    kit.servo[12].angle = 120
+
+
+    time.sleep(0.2)
     # -------------------------- 
 
 
@@ -46,7 +61,15 @@ while True :
     # inner 
     kit.servo[5].angle = 133
 
-    time.sleep(1)
+        # shoulder
+    kit.servo[9].angle = 10
+    # inner 
+    kit.servo[10].angle = 120
+    # elbow
+    kit.servo[12].angle = 130
+
+
+    time.sleep(0.2)
     # -------------------------- 
 
 
@@ -59,45 +82,34 @@ while True :
     # inner 
     kit.servo[5].angle = 130
 
-    time.sleep(1)
-    # -------------------------- 
-
-
-
-    # -------------------------- POINT 2 
-    # elbow
-    kit.servo[3].angle = 140
-    # shoulder
-    kit.servo[4].angle = 150
+        # shoulder
+    kit.servo[9].angle = 0
     # inner 
-    kit.servo[5].angle = 133
-
-    time.sleep(1)
-    # -------------------------- 
-
-
-    # -------------------------- POINT 3
-
+    kit.servo[10].angle = 120
     # elbow
-    kit.servo[3].angle = 70
-    # shoulder
-    kit.servo[4].angle = 120
-    # inner 
-    kit.servo[5].angle = 133
+    kit.servo[12].angle = 160
 
-    time.sleep(1)
+    time.sleep(0.2)
     # -------------------------- 
 
-
-
-    # -------------------------- POINT 4 (Push Back)
-
+    # right front
+    # shoulder
+    kit.servo[9].angle = 30
+    # inner 
+    kit.servo[10].angle = 120
     # elbow
-    kit.servo[3].angle = 100
-    # shoulder
-    kit.servo[4].angle = 180
-    # inner 
-    kit.servo[5].angle = 130
+    kit.servo[12].angle = 70
 
-    time.sleep(1)
-    # -------------------------- 
+    time.sleep(0.2)
+
+        # right front
+    # shoulder
+    kit.servo[9].angle = 70
+    # inner 
+    kit.servo[10].angle = 120
+    # elbow
+    kit.servo[12].angle = 160
+
+    time.sleep(0.1)
+    # ----------------------------- 
+
