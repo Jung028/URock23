@@ -30,7 +30,7 @@ while True :
     # shoulder
     kit.servo[4].angle = 150
     # inner 
-    kit.servo[5].angle = 135
+    kit.servo[5].angle = 130
 
 
 
