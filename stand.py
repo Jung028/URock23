@@ -26,7 +26,7 @@ while True :
 
     # left front
     # elbow
-    kit.servo[3].angle = 100
+    kit.servo[3].angle = 120
     # shoulder
     kit.servo[4].angle = 150
     # inner 
