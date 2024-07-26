@@ -18,9 +18,6 @@ for _ in range(1):
     kit.servo[2].angle = 170
 
 
-
-
-
     # left front
     # elbow
     kit.servo[3].angle = 120
@@ -28,8 +25,6 @@ for _ in range(1):
     kit.servo[4].angle = 170
     # inner 
     kit.servo[5].angle = 130
-
-
 
 
     # right back

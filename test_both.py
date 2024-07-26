@@ -77,7 +77,7 @@ for _ in range(5):
     # inner
     kit.servo[6].angle = 135
     # elbow
-    kit.servo[7].angle = 10
+    kit.servo[7].angle = 30
     # shoulder
     kit.servo[8].angle = 15
 
