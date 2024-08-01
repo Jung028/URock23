@@ -32,12 +32,18 @@ def move_servo(servo_angles):
         kit.servo[servo].angle = angle
     time.sleep(0.1)
 
-# Interpolate between two angles
-def interpolate(start_angle, end_angle, steps):
+# Interpolate / insertion between two angles
+# Based on the interpolation formula y = y1 + (x-x1) * ((y2-y1)/(x2-x1))
+    # y = linear insertion value 
+    # x = independant 
+    # x1, y1 = values of function at point A 
+    # x2, y2 = values of function at point B
+   
+def interpolate(start_angle, end_angle, steps): 
     return [start_angle + (end_angle - start_angle) * i / (steps - 1) for i in range(steps)]
 
 # Define sequences for each leg with smooth transitions
-def smooth_transition(sequence, steps=30):
+def smooth_transition(sequence, steps=30): # fills in 30 points to smooth the movement 
     for i in range(len(sequence) - 1):
         start_angles = sequence[i]
         end_angles = sequence[i + 1]

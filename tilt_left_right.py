@@ -4,25 +4,11 @@ import time
 # Set channels to the number of servo channels on your driver. Most likely 16 or 8.
 kit = ServoKit(channels=16)
 
-int left_max_angle_LB = 140 
-int left_max_angle_LF = 110 
-int left_max_angle_RB = 155
-int left_max_angle_RF = 100 
-
-int right_max_angle_LB = 100 
-int right_max_angle_LF = 150 
-int right_max_angle_RB = 115
-int right_max_angle_RF = 140 
-
-int left_LB = 140
 
 #sitting
-for _ in range(2):
+for _ in range(5):
 
-    # add a loop to iterate through the 4 tilt left angles to the 4 tilt right angles
-    for _ in range(left_max_angle_LB - right_max_angle_LB) :
-        left_LB += 1 
-
+    # TILT LEFT 
     
     # left back got slight issue, a bit shoter. 
     # elbow
