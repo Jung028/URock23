@@ -16,7 +16,7 @@ for _ in range(2):
     # inner
     kit.servo[1].angle = 120
     # shoulder 
-    kit.servo[2].angle = 160
+    kit.servo[13].angle = 160
 
 
 
@@ -56,13 +56,15 @@ for _ in range(2):
 
 
 
+
+
     # left back got slight issue, a bit shoter. 
     # elbow
     kit.servo[0].angle = 130
     # inner
     kit.servo[1].angle = 120
     # shoulder 
-    kit.servo[2].angle = 180
+    kit.servo[13].angle = 180
 
 
 

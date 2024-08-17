@@ -61,7 +61,7 @@ for _ in range(4):
     # inner
     kit.servo[1].angle = 120
     # shoulder 
-    kit.servo[2].angle = 170
+    kit.servo[13].angle = 170
 
 
     #LEFT FRONT
@@ -99,7 +99,7 @@ for _ in range(4):
     # inner
     kit.servo[1].angle = 120
     # shoulder 
-    kit.servo[2].angle = 175
+    kit.servo[13].angle = 175
 
     #LEFT FRONT 
     # elbow
@@ -143,7 +143,7 @@ for _ in range(4):
     # inner
     kit.servo[1].angle = 120
     # shoulder 
-    kit.servo[2].angle = 180
+    kit.servo[13].angle = 180
 
     #LEFT FRONT 
     # elbow
@@ -188,7 +188,7 @@ for _ in range(4):
     # inner
     kit.servo[1].angle = 118
     # shoulder 
-    kit.servo[2].angle = 170
+    kit.servo[13].angle = 170
        
     #LEFT FRONT 
     # elbow
@@ -235,7 +235,7 @@ for _ in range(4):
     # inner
     kit.servo[1].angle = 120
     # shoulder 
-    kit.servo[2].angle = 160
+    kit.servo[13].angle = 160
 
     # LEFT FRONT
     # elbow
@@ -279,7 +279,7 @@ for _ in range(4):
     # inner
     kit.servo[1].angle = 120
     # shoulder 
-    kit.servo[2].angle = 170
+    kit.servo[13].angle = 170
 
 
     # LEFT FRONT
